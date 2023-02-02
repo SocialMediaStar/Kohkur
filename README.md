@@ -16,6 +16,8 @@ Github - Kristiina, Helina, Kristel
 Värvide valimine - Helina
 Protokoll - Kristiina
 Logo - Kristel
+Küsitlus Helina, Kristiina
+Äriplaan - Kristel
 
 Töövahendid:
 
