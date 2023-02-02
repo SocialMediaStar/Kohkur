@@ -37,7 +37,7 @@ Meie klientideks on lapsevanemad, kelle lapsed käivad nii koolis kui ka lasteai
  3.
  
  Kristel
- 1.
+ 1. 
  2.
  3.
  
@@ -52,4 +52,4 @@ Meie klientideks on lapsevanemad, kelle lapsed käivad nii koolis kui ka lasteai
  3. Tutvusin uute programmidega ja õppisin neid kasutama.
  
  
- 
+ ![328433675_486302290378031_7902132347586050456_n](https://user-images.githubusercontent.com/124128712/216337884-1cb338d5-43e5-465f-aa90-4f6246869168.jpg)
