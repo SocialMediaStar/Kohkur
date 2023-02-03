@@ -37,9 +37,9 @@ Meie klientideks on lapsevanemad, kelle lapsed käivad nii koolis kui ka lasteai
  3.
  
  Kristel
- 1. 
- 2.
- 3.
+ 1. Tegelesin logo valmistamisega Canva.com'is
+ 2. Meeskonnaga tegime ülesannete jaotamist ning jooksvalt aitasime üksteist.
+ 3. Kirjutasin valmis Lean Canva, kus selgitasin välja sihtgrupid, väärtused jne. All pool ka sellest pilt. 
  
  Helina
  1. Üritasin aru saada tööks vajalikest programmidest ja nendega tööd teha.
