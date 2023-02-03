@@ -56,5 +56,16 @@ Meie klientideks on lapsevanemad, kelle lapsed käivad nii koolis kui ka lasteai
  ![328433675_486302290378031_7902132347586050456_n](https://user-images.githubusercontent.com/124128712/216337884-1cb338d5-43e5-465f-aa90-4f6246869168.jpg)
 (https://github.com/SocialMediaStar/Kohkur/files/10576377/Isikuandmed.pdf)
 
-[Küsitlus+analüüs.docx](https://github.com/SocialMediaStar/Kohkur/files/10576786/Kusitlus%2Banaluus.docx)
+<img width="536" alt="Küsitlus + analüüs" src="https://user-images.githubusercontent.com/124127699/216679795-bd793fdd-24b5-4aa2-b88f-91ebd8688faa.png">
+
+![Scannable Document on 3  Feb 2023 at 14](https://user-images.githubusercontent.com/124127699/216680461-1d22bbfd-f6e0-4541-82e2-f8f0adc745e8.jpg)
+
+![Scannable Document 2 on 3  Feb 2023 at 13_19_39](https://user-images.githubusercontent.com/124127699/216680469-69d6d0cd-9550-4126-8d7f-24fbf2c20d85.jpg)
+
+![Scannable Document 3 on 3  Feb 2023 at 13_19_39](https://user-images.githubusercontent.com/124127699/216680471-a5f89c70-5771-40bb-91e2-5b4890722449.jpg)
+
+![Scannable Document 4 on 3  Feb 2023 at 13_19_39](https://user-images.githubusercontent.com/124127699/216680478-4afc5d0e-ef45-4f9f-88de-5962d85a5f1e.jpg)
+
+![Scannable Document 5 on 3  Feb 2023 at 13_19_39](https://user-images.githubusercontent.com/124127699/216680485-57066d07-db71-47a7-87b8-32602ba81bb1.jpg)
+
 
