@@ -44,7 +44,7 @@ Meie klientideks on lapsevanemad, kelle lapsed käivad nii koolis kui ka lasteai
  Helina
  1. Üritasin aru saada tööks vajalikest programmidest ja nendega tööd teha.
  2. Tahaksin arendada tehnilisi oskusi, et oleks võimalik rohkem sellistes projektides panustada.
- 3. Olin osa meeskonnast, proovisime omavahel ülesandeid jagada, samas üksteist aidata. [Isikuandmed.pdf]
+ 3. Olin osa meeskonnast, proovisime omavahel ülesandeid jagada, koostöös viisime läbi küsitluse.
 
  
  Kristiina
