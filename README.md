@@ -42,9 +42,10 @@ Meie klientideks on lapsevanemad, kelle lapsed käivad nii koolis kui ka lasteai
  3.
  
  Helina
- 1.
- 2.
- 3.
+ 1. Üritasin aru saada tööks vajalikest programmidest ja nendega tööd teha.
+ 2. Tahaksin arendada tehnilisi oskusi, et oleks võimalik rohkem sellistes projektides panustada.
+ 3. Olin osa meeskonnast, proovisime omavahel ülesandeid jagada, samas üksteist aidata. [Isikuandmed.pdf]
+
  
  Kristiina
  1. Proovin olla rohkem produktiivsem ja panustada rohkem ka tehniliselt.
@@ -53,3 +54,4 @@ Meie klientideks on lapsevanemad, kelle lapsed käivad nii koolis kui ka lasteai
  
  
  ![328433675_486302290378031_7902132347586050456_n](https://user-images.githubusercontent.com/124128712/216337884-1cb338d5-43e5-465f-aa90-4f6246869168.jpg)
+(https://github.com/SocialMediaStar/Kohkur/files/10576377/Isikuandmed.pdf)
