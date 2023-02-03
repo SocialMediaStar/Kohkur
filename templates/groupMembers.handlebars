@@ -1,0 +1,14 @@
+{{#if this.members}}  
+  {{#each this.members}} 
+    <tr>
+      <th>
+        <div class="d-flex mb-3">
+          <div class="me-auto p-2">
+            <h4><strong>{{this.fname}} {{this.lname}}</strong></h4>
+          </div>
+        <div class="p-2"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+      </div>
+    </th>
+  </tr>
+  {{/each}}
+{{/if}}	
