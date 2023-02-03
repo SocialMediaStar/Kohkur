@@ -55,5 +55,6 @@ Meie klientideks on lapsevanemad, kelle lapsed käivad nii koolis kui ka lasteai
  
  ![328433675_486302290378031_7902132347586050456_n](https://user-images.githubusercontent.com/124128712/216337884-1cb338d5-43e5-465f-aa90-4f6246869168.jpg)
 (https://github.com/SocialMediaStar/Kohkur/files/10576377/Isikuandmed.pdf)
+
 [Küsitlus+analüüs.docx](https://github.com/SocialMediaStar/Kohkur/files/10576786/Kusitlus%2Banaluus.docx)
 
