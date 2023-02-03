@@ -79,7 +79,16 @@ error_reporting(E_ALL);
 	  public function loadEvents() {
 		global $db, $core,$user;
 
-		$ev = $db->fetch_all("SELECT * FROM event WHERE group_id = '".$_POST["group_id"]."'");
+
+		$ev = $db->fetch_all("
+			SELECT 
+			a.id AS event_id, a.group_id, a.name AS event_name, a.description AS event_desc, a.sum AS event_sum, a.dueDate AS event_dueData, a.picture AS event_picture,
+			FORMAT((((SELECT COUNT(id) FROM event_paid WHERE event_id = a.id) /
+			(SELECT COUNT(id) FROM group_user WHERE group_id = a.group_id)) * 100),2) AS per,
+			(SELECT COUNT(id) FROM event_paid WHERE event_id = a.id AND user_id = '".$user->uid."') AS mePaid
+			FROM event AS a
+			WHERE a.group_id = '".$_POST["group_id"]."'
+		");
 		if ($ev) {
 			$res["success"] = "1";
 			$res["events"] = $ev;			
@@ -91,7 +100,30 @@ error_reporting(E_ALL);
 		echo json_encode($res,true);
 
 	  }
+		/**
+	   * Event::PayForEvent()
+	   * @return
+	   */
+	  public function PayForEvent() {
+		global $db, $core,$user;
 
+		$e = $db->first("SELECT * FROM event WHERE id = '".$_POST["event_id"]."'");
+		$g = $db->first("SELECT * FROM groups WHERE id = '".$e["group_id"]."'");
+
+		$data = array(
+			"user_id" => $user->uid,
+			"price" => $e["sum"],
+			"email" => $user->email,
+			"hash" => $g["hash"]
+		);
+		require_once(location . "lib/class_montonio.php");
+		$montonio = new Montonio(); 
+		$r = $montonio->Pay($data);
+
+		$res["url"] = $r["url"];
+		$res["success"] = "1";
+		echo json_encode($res,true);
+	  }
 
 	}	
 ?>

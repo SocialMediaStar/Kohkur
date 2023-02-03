@@ -8,11 +8,11 @@
 	the database configuration settings.
 	**/
 		define('DB_SERVER', 'localhost'); 
-		define('DB_USER', 'root');  
-		define('DB_PASS', '');  
-		define('DB_DATABASE', 'kohkur'); 
+		define('DB_USER', 'olavi_kohkur');  
+		define('DB_PASS', 'w6s1sv4T9');  
+		define('DB_DATABASE', 'olavi_kohkur'); 
 
-		define('SITE_URL', '127.0.0.1/Kohkur/'); 
+		define('SITE_URL', 'https://kohkur.olaviallik.com'); 
 		define('SITE_DIR', '/home/arendusn/florabook.ee/'); 
 
 	/** 

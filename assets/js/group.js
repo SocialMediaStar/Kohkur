@@ -57,10 +57,10 @@ function loadGroupMembers() {
         data: {"loadGroupMembers" : "1","group_id" : group_id},
         success: function(data){
             if (data.success == "1") {
-/*                $(".eventArea").html("");
-                var template = Handlebars.templates['eventList'];
-                $(".eventArea").append(template(data));    
-                */
+                $(".groupMembersList").html("");
+                var template = Handlebars.templates['groupMembers'];
+                $(".groupMembersList").append(template(data));  
+                $(".totalMembers").html(data.totalMembers);  
             } else {
                 Swal.fire({
                     icon: 'error',

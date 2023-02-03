@@ -92,6 +92,8 @@ error_reporting(E_ALL);
 			FROM group_user AS a
 			LEFT JOIN user AS b ON b.id = a.user_id
 			WHERE a.group_id = '".$_POST["group_id"]."'");
+
+		$res["totalMembers"] = count($gr);
 		$res["success"] = "1";
 		$res["members"] = $gr;
 

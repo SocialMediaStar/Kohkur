@@ -84,31 +84,21 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="d-flex mb-3">
-              <div class="me-auto p-2"><h4><strong>Liikmeid: 3210</strong></h4></div>
+              <div class="me-auto p-2"><h4><strong>Liikmeid: <span class="totalMembers"></span></strong></h4></div>
               <div class="p-2"><button class="btn btn-blue btn-sm" data-bs-toggle="modal" data-bs-target="#addMemberModal">Lisa uus liige</button></div>
             </div>
-          </div>
-          <div class="col-lg-12">
-            <table class="table table-bordered table-striped">
-              <thead>
-                <tr>
-                  <th>
-                    <div class="d-flex mb-3">
-                      <div class="me-auto p-2">
-                        <h4><strong>Olavi Allik</strong></h4>
-                        <i class="fa-solid fa-child-reaching"></i> Karl Allik
-                      </div>
-                      <div class="p-2"><i class="fa-solid fa-ellipsis-vertical"></i></div>
-                    </div>
-                  </th>
-                </tr>
-              </thead>
-            </table>
           </div>
         </div>
       </div>
     </div>
-
+    <div class="row">
+      <div class="col-lg-12">
+        <table class="table table-bordered table-striped">
+          <thead class="groupMembersList">
+          </thead>
+        </table>
+      </div>
+    </div>
   </div>
   <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
   <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div>

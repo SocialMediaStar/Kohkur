@@ -20,3 +20,12 @@
   $event->loadEvents();
   endif;
 ?>
+<?php
+  /* PayForEvent */
+  if (isset($_POST['PayForEvent']))
+      : if (intval($_POST['PayForEvent']) == 0 || empty($_POST['PayForEvent']))
+      : redirect_to("../index.php");
+  endif;
+  $event->PayForEvent();
+  endif;
+?>

@@ -3,22 +3,29 @@
 {{#each this.events}} 
           <div class="card mt-2">
             <div class="card-body p-0">
-              {{#if this.picture}}  
+              {{#if this.event_picture}}  
               <div class="card-image">
-                <img src="{{this.picture}}" width="100%">
+                <img src="{{this.event_picture}}" width="100%">
               </div>
               {{/if}}	
               <div class="p-2">
-                <h4 class="mt-2">{{this.name}}</h4>
-                <p>{{this.description}}</p>
-                <p>Kokku vaja: {{this.sum}} € (per laps)</p>
+                <h4 class="mt-2">{{this.event_name}}</h4>
+                <p>{{this.event_desc}}</p>
+                <p>Kokku vaja: {{this.event_sum}} € (per laps)</p>
               </div>
               <div class="p-2">
                 <div class="progress">
-                    <div class="progress-bar" style="width:65%; background:#130269;">
-                        <div class="progress-value">65%</div>
+                    <div class="progress-bar" style="width:{{this.per}}%; background:#130269;">
+                        <div class="progress-value">{{this.per}}%</div>
                     </div>
                 </div>
+              </div>
+              <div class="p-2">
+                {{#if (eqw mePaid '0')}}
+                <button class="btn btn-blue" onClick="PayForEvent({{event_id}})">Maksa</button>
+                {{else}}
+                * Sa oled juba tasunud ürituse eest.
+                {{/if}}	
               </div>
             </div>
           </div>

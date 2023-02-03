@@ -15,7 +15,6 @@ error_reporting(E_ALL);
 //	private $secret_key = 'hwmL3D40FlOAFzMr1ALxsw13rgju3yE87LPtDLUCnNu4';
 //	private $url = 'https://payments.montonio.com?payment_token=';
 
-
 	private $access_key = '1d57823e-5d69-41d7-8c12-2a31e0a53105';
 	private $secret_key = 'VFUhuW8vIvvSgU3NM5v8YebD/SrD0awG4sUh+QmjkoNx';
 	private $url = 'https://sandbox-payments.montonio.com?payment_token=';
@@ -44,16 +43,19 @@ error_reporting(E_ALL);
 			'amount'                           => $o["price"],
 			'currency'                         => 'EUR',
 			'access_key'                       => $this->access_key,
-			'merchant_name'					   => 'Tellimuse tasumine',
+			'merchant_name'					   => 'Ürituse tasumine',
 			'preselected_locale' 			   => 'EE',
-			'merchant_reference'               => $o["hash"]."client".$o["client_id"],
-			'merchant_return_url'              => $core->site_url.'return_montonio_'.$o["hash"]."client".$o["client_id"],
+			'merchant_reference'               => $o["hash"]."user".$o["user_id"],
+			'merchant_return_url'              => $core->site_url.'return_montonio_'.$o["hash"]."user".$o["user_id"],
 			'merchant_notification_url'        => $core->site_url.'webhook/montonio.php?id='.$o["hash"],
-			'payment_information_unstructured' => 'Tasumine tehingu eest',
+			'payment_information_unstructured' => 'Tasumine ürituse eest',
 			'preselected_locale'               => 'et',
 			'checkout_email'                   => $o["email"],
 			'exp'                              => time() + (60 * 10), 
 		);
+		//echo "<pre>";
+		//print_R($payment_data);
+		//echo "</pre>";
 		$payment_token = \Firebase\JWT\JWT::encode($payment_data, $this->secret_key);
 		$return["url"] = $this->url.$payment_token;
 		return $return;

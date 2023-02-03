@@ -76,3 +76,25 @@ function LoadEvents() {
         }
     });
 }
+function PayForEvent(event_id) {
+    group_id = $("input[name=group_id]").val();
+    $.ajax({
+        type: "POST",
+        url: "ajax/event.php",
+        dataType:"json",
+        data: {"PayForEvent" : "1","group_id" : group_id,"event_id" : event_id},
+        success: function(data){
+            if (data.success == "1") {
+                location.href = data.url;
+            } else {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oih midagi läks valesti',
+                    text: data.msg,
+                    showConfirmButton: false,
+                    timer: 3000
+              })
+            }
+        }
+    });
+}
